@@ -1,0 +1,58 @@
+html { 
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-size: 16px;
+	line-height: 1.6rem;
+}
+body {
+	width: 98%; 
+	max-width: 750px; 
+	margin: 18px auto; 
+}
+.thesource { 
+	font-size: .9em; 
+	font-weight: bold; 
+	font-variant: small-caps; 
+	letter-spacing: 0.1em; 
+	text-align: right; 
+	width: 98%; 
+	padding: 9px; 
+	padding-top: 0;
+}
+.tcrc-recipe {
+	padding: 9px 18px; 
+	border: 1px solid #ccc; 
+}
+.tcrc-instructions { 
+	line-height: 1.62em; 
+}
+.tcrc-topicons, img { 
+	display: none; 
+}
+.tcrc-fn {
+	font-size: 1.25em; 
+	line-height: 1em;
+}
+.tcrc-duration,
+.tcrc-yield,
+.tcrc-nutrition {
+	font-size: .9em; 
+	letter-spacing: 0.1em; 
+	font-variant: small-caps; 
+	margin-left: 1rem; 
+}
+.tcrc-ingredient { 
+	display: inline-block; 
+	padding-bottom: .5em; 
+	margin-left: 1rem; 
+}
+.tcrc-summary {
+	font-weight: normal;
+	text-align: justify;
+	font-size: .9rem;
+	margin-left: 1.25rem;
+	margin-right: 1.25rem;
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	hyphens: auto;
+	word-wrap: break-word;
+}

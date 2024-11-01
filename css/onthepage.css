@@ -1,0 +1,58 @@
+.tcrc-recipe {
+	position: relative;
+	border: 1px solid #ccc;
+	padding: 1em;
+	margin-bottom: 1em;
+}
+.tcrc-fn {
+	font-size: 1em;
+	font-weight: bold;
+	letter-spacing: 0.1em;
+	width: 100%;
+	border-bottom: 1px solid #ccc;
+}
+.tcrc-duration,
+.tcrc-yield,
+.tcrc-nutrition {
+	font-size: .8em;
+	letter-spacing: 0.1em;
+	font-variant: small-caps;
+	margin-left: 1.25rem;
+}
+.tcrc-ingredient {
+	display: inline-block;
+	padding-bottom: .5em;
+	margin-left: 1.25rem;
+}
+.tcrc-summary {
+	font-size: .9em;
+	font-style: italic;
+	margin-left: 1.25rem;
+	margin-right: 1.25rem;
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	hyphens: auto;
+	word-wrap: break-word;
+}
+.tcrc-topicons {
+	position: absolute;
+	right: 1.1em;
+	top: 1em;
+}
+.tcrc-topicons a,
+.tcrc-topicons a:focus,
+.tcrc-topicons a:active,
+.tcrc-topicons a:hover {
+	border: 0 !important;
+	text-decoration: none;
+	color: #444 !important;
+	outline: none !important;
+}
+.tcrc-topicons img {
+	border: 0 !important;
+	box-shadow: none !important;
+	width: 1.33em;
+	height: 1.33em;
+	max-height: 32px;
+	max-width: 32px;
+}
